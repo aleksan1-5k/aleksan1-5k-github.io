@@ -1,0 +1,271 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto Slab', serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #555555;
+}
+.clearfix::after{
+	content: "";
+	display: table;
+	width: 100%;
+	clear: both;
+}
+div{
+	box-sizing: border-box;
+}
+header{
+	background: url(../img/head-bg.png) no-repeat center top / cover;
+	height: 770px;
+	width: 100%;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+
+}
+.logotype{
+	margin-top: 40px;
+	margin-left: 55px;
+	float: left;
+	font-weight: bold;
+	font-size: 24px;
+	color: #fff;
+}
+
+.btn_menu button{
+	background-color: transparent;
+	border: medium none;
+	font-size: 25px;
+	color: #fffff4;
+	float: right;
+}
+nav{
+	margin-top: 40px;
+	float: right;
+}
+.menu{
+	padding:0;
+	margin-top: 40px;
+	display: none;
+
+}
+.menu li{
+	float: left;
+	display: block;
+	list-style-type: none;
+}
+.menu a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+
+	margin-right:35px;
+}
+.first-title{
+	width: 100%;
+	margin-top: 185px;
+	color: #fff;
+	font-size: 48px;
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	text-align: center;
+}
+h1{
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	margin-top: 25px;
+}
+.button{
+	background: #fff;
+	color: #c0301c;
+	border-radius: 2px;
+	display: block;
+	width: 15%;
+	padding: 15px 0;
+	margin: 0 auto;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 50px;
+}
+#services{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.title{
+	margin-bottom: 70px;
+}
+.title h2{
+font-size: 20px;
+text-align: center;
+text-transform: uppercase;
+margin: 0;
+}
+.title img{
+	text-align: center;
+	margin: 5px;
+}
+.title p{
+font-size: 16px;
+text-align: center;
+font-family: 'Roboto Slub'
+margin: 5px;
+
+}
+.services_item{
+	width: 32%;
+
+	text-align: center;
+	display: inline-block;
+}
+.services_item:nth-child(2){
+	width: 32%;
+	margin-left: 2%;
+	text-align: center;
+	display: inline-block;
+}
+.services_item h3{
+font-size: 14px;
+text-align: center;
+text-transform: uppercase;
+}
+.services_item p{
+font-size: 14px;
+text-align: center;
+line-height: 1.8em;
+}
+.services_item:last-child{
+	float: right;
+}
+
+#about{
+	background: #f8f8f8;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#get_in_touch{
+	padding-top: 100px;
+	margin-bottom: 100px;
+}
+.text1{
+	width: 50%;
+	float: left;
+}
+.text2{
+	width: 50%;
+	float: right;
+}
+.about p{
+	margin-left: 2%;
+	font-size: 14px;
+	line-height: 1.8em;
+}
+.about_item{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+.about_item img {
+   opacity: 0.7;
+   transition: 1s;
+}
+.about_item img:hover {
+   opacity: 1;
+}
+
+
+.about_item:last-child{
+	float: right;
+}
+/*.about_item:nth-child(2){
+	margin-left: 20px;
+}
+.about_item:nth-child(3){
+	margin-left:20px;
+}*/
+.contact_info h3{
+	font-size: 14px;
+	text-transform: uppercase;
+
+}
+.contact_info img{
+	text-align: center;
+	margin-right: 12px;
+}
+.contact_info p{
+	font-size: 12px;
+	line-height: 1em;
+	margin-left: 25px;
+}
+.contact_info{
+	width: 250px;
+	float: left;
+}
+.name_mail{
+	margin-bottom: 20px;
+}
+.subject_company{
+	margin-bottom: 20px;
+}
+.contact_info{
+	float: left;
+}
+.contact_form{
+	display: inline-block;
+	width: 70%;
+}
+.wrap input{
+	width: 40%;
+	height: 30px;
+	font-size: 12px;
+	margin-left: 25px;
+}
+.textbox input{
+	width: 85%;
+	height: 100px;
+	font-size: 12px;
+	margin-left: 25px;
+}
+textarea{
+	width: 84%;
+	height: 100px;
+	margin-left: 25px;
+	font-family: Arial;
+	color: #555555;
+	resize: none;
+
+}
+input[type=button]{
+
+	background: #c0301c;
+	color: #fff;
+	border-radius: 5px;
+	width: 180px;
+	padding: 15px 0;
+	margin: 0 auto;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 20px;
+	margin-left: 25px;
+}
+footer{
+	width: auto;
+	height: 100px;
+	background-color: #c0301c;
+}
+.autor{
+	padding-top: 30px;
+	width: 250px;
+	margin: 0 auto;
+}
+.autor p{
+color: #fff;
+font-size: 14px;
+text-align: center;
+}
